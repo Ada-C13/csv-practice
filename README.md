@@ -42,10 +42,14 @@ This method's responsibility is to:
     - How did we "Assert" and check that the method returns an accurate list of Olympic medalists?
     - What nominal tests did we miss?
 1. Write down descriptions of 2 edge test cases that aren't in our tests. (Don't write the tests, just come up with your test cases for practice!)
-1. TDD the implementation of `get_all_olympic_athletes(filename)` with the provided tests.
+4. TDD the implementation of `get_all_olympic_athletes(filename)` with the provided tests.
 (In other words, given the tests have already been written for you, write the method to get all tests to pass.)
 
-    `When calling CSV.read, consider what the relative path of the csv file from the file the code is in`
+    `When calling CSV.read, consider what the relative path of the csv file from the folder you will be running the code from in your terminal`
+    
+    
+After ~20 minutes, we will review the solution to #4 as a class
+    
 
 ### `total_medals_per_team(olympic_data)`
 
